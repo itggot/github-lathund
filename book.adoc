@@ -59,6 +59,12 @@ image::images/discount_3.png[]
 image::images/discount_4.png[]
 
 
+== Github Desktop Klienten
+[%hardbreaks]
+Det lättaste sättet att använda github är genom deras desktop applikation.
+Följ länken nedan för att ladda ner den.
+https://desktop.github.com/[Github Desktop]
+
 == Repositories
 [%hardbreaks]
 Alla era projekt kommer ha ett eget *repository*(som betyder *lager* på utrikiska) men brukar kallas kort och gott för *repo*.
@@ -73,6 +79,28 @@ Om du gör det lokalt på din dator behöver du publicera det så att det laddas
 När du gör ändringar i ditt projekt,( t.ex ändrar kod i någon fil, skapar nya filer, lägger till bilder, etc. )
 så håller git reda på dessa ändringar. Men dessa ändringar är *inte sparade*.
 För att *spara* sina ändringar måste man göra en *commit*.
+
+.Första gången du skapar ett repo trycker du Start a project
+image::images\project_1.png[]
+
+.I fortsättningen använder du plus-menyn uppe till höger
+image::images\project_1b.png[]
+
+.Fyll i namn, beskrivning, välj public, tryck Create Repository
+image::images\project_2.png[]
+
+.Tryck Setup in Desktop
+image::images\project_3.png[]
+
+.Kan variera på Windows, tryck OK
+image::images\project_4.png[]
+
+.Observera var repot kommer sparas, tryck sedan på Clone
+image::images\project_5.png[]
+
+.Klar!
+image::images\project_6.png[]
+
 
 === Commits
 När du gör en *commit* så läggs det till i ditt lokala repo som en sparad ändring.
@@ -124,11 +152,7 @@ Texten ni kommer skriva i dessa sidor skrivs med MarkDown som är ett enkelt spr
 Gränssnittet på github.com har dock knappar för olika formatteringar såsom rubriker, listor etc.
 
 
-== Github Desktop Klienten
-[%hardbreaks]
-Det lättaste sättet att använda github är genom deras desktop applikation.
-Följ länken nedan för att ladda ner den.
-https://desktop.github.com/[Github Desktop]
+
 
 
 == Vanliga Scenarion
