@@ -1,0 +1,37 @@
+:numbered:
+:icons: font
+:toc: left
+:toclevels: 3
+
+= Lathund för Github
+
+== Skapa konto
+Följ länken nedan för att skapa ett githubkonto .
+Registrera ditt konto med din @itggot.se-adress.
+Ditt användarnamn ska ha följande format, ersätt å,ä,ö med a och o.
+====
+itggot-fornamn-efternamn
+====
+https://github.com/join[Github]
+
+== Github Desktop Klienten
+https://desktop.github.com/[Github Desktop]
+
+=== Student Developer Account
+https://education.github.com/pack[Student Developer Account]
+
+== Repositories
+Repository betyder lager på utrikiska. 
+
+=== Skapa
+
+=== Commits
+
+=== Synca
+
+=== Klona
+
+=== Forka
+
+=== Wiki
+Varje repository har en egen dokumentationswiki
