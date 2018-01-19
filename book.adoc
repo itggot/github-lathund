@@ -5,27 +5,45 @@
 
 = Lathund för Github
 
+[%hardbreaks]
+Git är ett så kallat versionshanteringssystem som används av en stor majoritet av utvecklare i världen.
+Det är ett smidigt sätt att lagra, dela med sig och hålla koll på ändringar i utvecklingsprojekt.
+Github är ett gränssnitt för git, i dessa kurser kommer ni använda github för att
+
+* Ha backup på era projekt
+* Samarbeta med varandra på olika projekt
+* Dokumentera era projekt
+* Göra er kod synlig för lärarna
+
+
 == Skapa konto
-Följ länken nedan för att skapa ett githubkonto .
+[%hardbreaks]
+Följ länken nedan för att skapa ett githubkonto.
 Registrera ditt konto med din @itggot.se-adress.
 Ditt användarnamn ska ha följande format, ersätt å,ä,ö med a och o.
 ====
 itggot-fornamn-efternamn
 ====
-https://github.com/join[Github]
+https://github.com/join[Skapa konto på Github]
 
-== Github Desktop Klienten
-https://desktop.github.com/[Github Desktop]
 
 === Student Developer Account
+[%hardbreaks]
+Som student finns det ett paket med godsaker som rekommenderas.
 https://education.github.com/pack[Student Developer Account]
 
 == Repositories
-Repository betyder lager på utrikiska. 
+[%hardbreaks]
+Alla era projekt kommer ha ett eget *repository*(som betyder *lager* på utrikiska) men brukar kallas kort och gott för *repo*.
+Repon kan antingen finnas online på github.com eller lokalt på din dator, detta är viktigt att man förstår när man jobbar med github.
+
 
 === Skapa
+När du skapar ett repository så kan du antingen göra det lokalt på din dator eller genom github.com.
+Om du gör det lokalt på din dator behöver du publicera det så att det laddas upp på github.com.
 
 === Commits
+
 
 === Synca
 
@@ -35,3 +53,9 @@ Repository betyder lager på utrikiska.
 
 === Wiki
 Varje repository har en egen dokumentationswiki
+
+== Github Desktop Klienten
+[%hardbreaks]
+Det lättaste sättet att använda github är genom deras desktop applikation.
+Följ länken nedan för att ladda ner den.
+https://desktop.github.com/[Github Desktop]
