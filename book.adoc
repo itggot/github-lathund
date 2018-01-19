@@ -27,10 +27,24 @@ itggot-fornamn-efternamn
 https://github.com/join[Skapa konto på Github]
 
 
-=== Student Developer Account
-[%hardbreaks]
-Som student finns det ett paket med godsaker som rekommenderas.
-https://education.github.com/pack[Student Developer Account]
+.Fyll i användaruppgifter, tänk på formatet på användarnamnet
+image::images/register_1.png[]
+
+.Välj gratisplanen, klicka på fortsätt
+image::images/register_2.png[]
+
+.Valfritt steg, fyll i eller klicka på skip this step
+image::images/register_3.png[]
+
+.Du behöver bekräfta din e-mail för att aktivera ditt konto
+image::images/register_4.png[]
+
+
+
+//=== Student Developer Account
+//[%hardbreaks]
+//Som student finns det ett paket med godsaker som rekommenderas.
+//https://education.github.com/pack[Student Developer Account]
 
 == Repositories
 [%hardbreaks]
@@ -39,17 +53,49 @@ Repon kan antingen finnas online på github.com eller lokalt på din dator, dett
 
 
 === Skapa
-När du skapar ett repository så kan du antingen göra det lokalt på din dator eller genom github.com.
+När du skapar ett repo så kan du antingen göra det lokalt på din dator eller genom github.com.
+Det är enklast att skapa det genom github.com och sen *klona* det med github-klienten(se längre ner).
 Om du gör det lokalt på din dator behöver du publicera det så att det laddas upp på github.com.
+När du gör ändringar i ditt projekt,( t.ex ändrar kod i någon fil, skapar nya filer, lägger till bilder, etc. )
+så håller git reda på dessa ändringar. Men dessa ändringar är *inte sparade*.
+För att *spara* sina ändringar måste man göra en *commit*.
 
 === Commits
-
+När du gör en *commit* så läggs det till i ditt lokala repo som en sparad ändring.
+Commits genomförs vanligtvis när man har lagt till något och fått det att fungera.
+Varje commit *måste ha ett kort meddelande* som innehåller vad som har ändrats och kan innehålla en längre beskrivning.
+Eftersom varje commit bara sparas i ditt lokala repo måste du publicera dessa för att spara dem på github.com.
+Detta gör du genom att *synca*.
 
 === Synca
+När du synkar så publicerar du alla commits du gjort *och* laddar ner alla ändringar som skett på det publicerade repot.
+Om man är flera som jobbar med samma projekt samtidigt kan den här biten bli lite bökig om man inte är sammanspelta.
+Ett typiskt scenario som det kan gå galet
+====
+Bob och Alice har en varsin lokal kopia av ett publicerat repo.
+
+Alice gör en ändring i codefile.rb och lägger till några rader, sparar sin ändring med en commit, sen syncar den mot det publicerade repot.
+
+Sen gör Bob också en ändring i codefile.rb, sparar sin ändring med en commit och försöker synca.
+Men eftersom när Bob syncar sina ändringar försöker git att ladda ner Alices ändringar, då uppstår en konflikt över vilka ändringar som gäller.
+För att lösa detta måste Bob ta bort sina ändringar, synca så han får ner Alices ändringar, sen lägga till sina ändringar igen följt av commit och sync.
+====
 
 === Klona
+För att få en lokal kopia av ett publicerat repo så behöver du klona det.
+Detta görs enklast genom en knapp på github.com. 
+
+När du klonar ett repo så skapas det en ny mapp med samma namn som repot på den valda sökvägen.
+För att göra det enkelt så kommer alla era lokala repositories ligger under *C:\Users\user.name\Documents\GitHub\\*.
+
+[WARNING]
+====
+Lägg under inga omständigheter ett repo i din Google Drive. +
+Git och Google Drive är inte kompatibla.
+====
 
 === Forka
+
 
 === Wiki
 Varje repository har en egen dokumentationswiki
